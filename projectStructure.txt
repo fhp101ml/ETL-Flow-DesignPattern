@@ -1,0 +1,46 @@
+/
+|-- README.md                   # Main introduction and description file for the project.
+|-- LICENSE                     # Project license file.
+|-- CONTRIBUTING.md             # Guide for contributing to the project.
+|-- GLOSSARY.md                 # Glossary of key terms related to ETL and ML.
+|-- docs/                       # Folder for additional documentation.
+|   |-- design_patterns.md       # Documentation on applicable design patterns for ETL.
+|
+|-- etl-pipelines/              # Folder containing examples of ETL pipelines.
+|   |-- pandas/                 # Examples of ETL pipelines using pandas.
+|   |-- dask/                   # Examples of scalable ETL pipelines using Dask.
+|   |-- Apache-Airflow/         # Examples of pipelines with Airflow.
+|   |-- Prefect/                # Examples of ETL flows using Prefect.
+|   |-- dbt/                    # Examples of ETL with dbt focused on SQL models.
+|   |-- pipeline-pattern/       # Examples of the pipeline pattern for ETL.
+|   |-- batch-processing/       # Examples of the batch processing pattern.
+|   |-- stream-processing/      # Examples of real-time data processing.
+|   |-- modular-transformations/ # Examples of modular transformations for reuse.
+|
+|-- data-sources/               # Examples of data connection and extraction.
+|   |-- api-rest/               # Examples of extraction from REST APIs.
+|   |-- sql-databases/          # Examples of connection and extraction from SQL databases.
+|   |-- nosql-databases/        # Examples of connection and extraction from NoSQL.
+|   |-- data-lakes-warehouses/  # Examples of extraction from Amazon S3, BigQuery, Snowflake.
+|
+|-- transformations/            # Examples of common and advanced data transformations.
+|   |-- scaling-normalization/  # Examples of normalization and scaling of numerical data.
+|   |-- encoding-categorical/   # Examples of encoding for categorical data.
+|   |-- missing-value-imputation/ # Methods for imputing missing values.
+|   |-- time-series/            # Transformations and features for time series data.
+|
+|-- testing/                    # Examples and best practices for ETL testing.
+|   |-- unit-tests/             # Unit tests to validate ETL functions.
+|   |-- integration-tests/      # Integration tests for complete pipelines.
+|   |-- data-quality-checks/    # Data quality checks.
+|   |-- pytest/                 # Examples of tests using pytest.
+|   |-- great_expectations/     # Examples of data quality testing with Great Expectations.
+|   |-- pandas-profiling/       # Data profiling with pandas-profiling.
+|
+|-- resources/                  # Additional resources and external links.
+|   |-- tutorials/              # Guides on setting up tools and pipelines.
+|   |-- design-patterns/        # Documentation on applicable design patterns.
+|   |-- external-links.md       # Links to relevant external repositories.
+|       |-- etl-project-comparison/ # Link and description to the ETL tools comparison repository.
+|       |-- manual-python-ml/       # Link and description to the Python manual for ML.
+|       |-- testing-python/         # Link and description to the testing and news repository for Python.
